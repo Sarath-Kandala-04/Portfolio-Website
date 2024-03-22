@@ -1,0 +1,101 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #54cfed; /* Set your desired solid background color */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /*display: flex;
+    justify-content: space-between;*/  /* Ensures equal spacing between items */
+}
+
+
+.about-content {
+    display: flex;
+}
+
+.about-text {
+    width: 60%; /* Adjust as needed */
+}
+
+.about-image {
+    width: 40%; /* Adjust as needed */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.arrow-list {
+    list-style: none; /* Remove default list style */
+}
+
+.arrow-list li::before {
+    content: "\2192"; /* Unicode arrow symbol → */
+    margin-right: 5px; /* Add space between arrow and text */
+}
+
+
+header {
+    background: #333;
+    color: #fefefe;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: disc; /* Sets the bullet point style to round */
+}
+
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fdfcfc;
+    text-align: center;
+    padding: 10px 0;
+}
